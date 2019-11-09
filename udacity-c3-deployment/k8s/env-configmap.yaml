@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: ConfigMap
 data:
-  AWS_BUCKET: zakariadatabase-dev
-  AWS_PROFILE: default
-  AWS_REGION: us-east-1
-  JWT_SECRET: helloWorld
-  POSTGRESS_DB:  zakariadatabase
-  POSTGRESS_HOST: zakariadatabase.cxwfylzspc5q.us-east-1.rds.amazonaws.com
+  AWS_BUCKET: __addBucket___
+  AWS_PROFILE: __addProfile__
+  AWS_REGION: __ADDRegion__
+  JWT_SECRET: __addSecret__
+  POSTGRESS_DB:  __addDb__
+  POSTGRESS_HOST: __addHost__
   URL: http://localhost:8100  
 metadata:
   name: env-config
